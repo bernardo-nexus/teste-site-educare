@@ -1,0 +1,290 @@
+@import "tailwindcss";
+
+/* Hide reCAPTCHA badge — attribution text is shown in the footer per Google ToS */
+.grecaptcha-badge {
+  visibility: hidden !important;
+}
+
+@theme {
+  --font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Inter", "Segoe UI", system-ui, sans-serif;
+  --font-heading: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Inter", "Segoe UI", system-ui, sans-serif;
+
+  /* Apple-like neutrals: white, #f5f5f7 gray, #1d1d1f ink, black stage */
+  --color-paper: #ffffff;
+  --color-sage: #f5f5f7;
+  --color-sage-deep: #e8e8ed;
+  --color-ink: #1d1d1f;
+  --color-ink-soft: #424245;
+  --color-ink-muted: #6e6e73;
+  --color-line: #d2d2d7;
+  --color-forest: #000000;
+  --color-forest-2: #161617;
+
+  /* Brand accents from the app icon gradient (lime -> emerald) */
+  --color-lime: #c8e64a;
+  --color-lime-soft: #f1f8c9;
+  --color-emerald: #1a9d58;
+  --color-emerald-deep: #12804a;
+
+  /* Audience tints (pais / professores / gestão) */
+  --color-peach: #ffe9df;
+  --color-peach-ink: #c2541f;
+  --color-sky: #e3efff;
+  --color-sky-ink: #1f63c4;
+  --color-meadow: #eaf6cf;
+  --color-meadow-ink: #4d7a0c;
+
+  /* Primary: Green (matching mobile app #43A047) */
+  /* primary-600 (#388e3c) is the canonical interactive/button color */
+  --color-primary-50: #e8f5e9;
+  --color-primary-100: #c8e6c9;
+  --color-primary-200: #a5d6a7;
+  --color-primary-300: #81c784;
+  --color-primary-400: #66bb6a;
+  --color-primary-500: #43a047;
+  --color-primary-600: #388e3c;
+  --color-primary-700: #2e7d32;
+  --color-primary-800: #256b29;
+  --color-primary-900: #1b5e20;
+
+  /* Secondary: Lime (matching mobile app #7CB342) */
+  --color-secondary-50: #f1f8e9;
+  --color-secondary-100: #dcedc8;
+  --color-secondary-200: #c5e1a5;
+  --color-secondary-300: #aed581;
+  --color-secondary-400: #9ccc65;
+  --color-secondary-500: #7cb342;
+  --color-secondary-600: #689f38;
+  --color-secondary-700: #558b2f;
+  --color-secondary-800: #33691e;
+  --color-secondary-900: #27561a;
+
+  /* Accent: Amber (highlights/badges) */
+  --color-accent-400: #fbbf24;
+  --color-accent-500: #f59e0b;
+  --color-accent-600: #d97706;
+
+  /* Neutral: Warm gray scale */
+  --color-neutral-50: #fafafa;
+  --color-neutral-100: #f5f5f5;
+  --color-neutral-200: #e5e5e5;
+  --color-neutral-300: #d4d4d4;
+  --color-neutral-400: #a3a3a3;
+  --color-neutral-500: #737373;
+  --color-neutral-600: #525252;
+  --color-neutral-700: #404040;
+  --color-neutral-800: #262626;
+  --color-neutral-900: #171717;
+  --color-neutral-950: #0a0a0a;
+
+  --radius-sm: 0.25rem;
+  --radius-md: 0.375rem;
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.75rem;
+  --radius-2xl: 1.25rem;
+  --radius-3xl: 1.75rem;
+
+  --shadow-soft: 0 1px 2px rgb(15 42 29 / 0.04), 0 8px 24px -8px rgb(15 42 29 / 0.12);
+  --shadow-lift: 0 2px 4px rgb(15 42 29 / 0.05), 0 24px 48px -16px rgb(15 42 29 / 0.22);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 64px;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    color: var(--color-ink);
+    background-color: var(--color-paper);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    letter-spacing: -0.011em;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-heading);
+    text-wrap: balance;
+    letter-spacing: -0.028em;
+  }
+
+  h1 { font-size: 2.5rem; font-weight: 700; line-height: 1.05; }
+  h2 { font-size: 1.875rem; font-weight: 700; line-height: 1.08; }
+  h3 { font-size: 1.25rem; font-weight: 600; line-height: 1.2; }
+  h4 { font-size: 1.125rem; font-weight: 600; line-height: 1.3; }
+
+  :focus-visible {
+    outline: 2px solid var(--color-emerald);
+    outline-offset: 3px;
+    border-radius: 6px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer components {
+  /* Brand gradient text — the app icon's lime-to-emerald sweep */
+  .text-brand {
+    background-image: linear-gradient(100deg, #9fcf2e 0%, #3fb84f 45%, #12804a 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .text-brand-light {
+    background-image: linear-gradient(100deg, #e4f56b 0%, #8fe06a 50%, #3fcf86 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .eyebrow {
+    display: inline-block;
+    font-size: 1.05rem;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    color: var(--color-emerald);
+  }
+
+  .btn-primary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+    min-height: 2.9rem;
+    padding: 0.7rem 1.5rem;
+    border-radius: 999px;
+    background: var(--color-emerald);
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.0625rem;
+    transition: background-color 0.2s ease;
+  }
+
+  .btn-primary:hover { background: var(--color-emerald-deep); }
+
+  .btn-ghost {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+    min-height: 2.9rem;
+    padding: 0.7rem 1.5rem;
+    border-radius: 999px;
+    border: 1px solid var(--color-emerald);
+    color: var(--color-emerald);
+    font-weight: 500;
+    font-size: 1.0625rem;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+
+  .btn-ghost:hover { background: var(--color-emerald); color: #fff; }
+
+  .link-arrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.15rem;
+    color: var(--color-emerald);
+    font-size: 1.0625rem;
+    font-weight: 500;
+  }
+
+  .link-arrow:hover { text-decoration: underline; }
+
+  .section {
+    padding-block: 6rem;
+  }
+
+  @media (min-width: 1024px) {
+    .section { padding-block: 9rem; }
+  }
+
+  .container-site {
+    width: 100%;
+    max-width: 71rem;
+    margin-inline: auto;
+    padding-inline: 1.25rem;
+  }
+
+  @media (min-width: 1024px) {
+    .container-site { padding-inline: 2rem; }
+  }
+
+  .tile {
+    border-radius: 1.75rem;
+    background: var(--color-sage);
+    overflow: hidden;
+  }
+}
+
+@layer components {
+  /*
+   * Liquid Glass — iOS 26-style material.
+   * Strong blur + saturation, a soft tinted body, a bright specular rim on the top edge
+   * and a faint inner glow at the bottom, so the surface reads as a thick pane of glass.
+   */
+  .liquid-glass {
+    position: relative;
+    isolation: isolate;
+    background: linear-gradient(180deg, rgb(255 255 255 / 0.46) 0%, rgb(255 255 255 / 0.22) 100%);
+    -webkit-backdrop-filter: blur(22px) saturate(190%) brightness(1.04);
+    backdrop-filter: blur(22px) saturate(190%) brightness(1.04);
+    border: 1px solid rgb(255 255 255 / 0.7);
+    box-shadow:
+      inset 0 1px 0 rgb(255 255 255 / 0.95),
+      inset 0 -1px 0 rgb(255 255 255 / 0.35),
+      inset 0 0 18px rgb(255 255 255 / 0.35),
+      0 10px 30px -12px rgb(15 30 20 / 0.22),
+      0 2px 6px rgb(15 30 20 / 0.06);
+    transition: background 0.4s ease, border-color 0.4s ease, box-shadow 0.4s ease;
+  }
+
+  /* Specular sheen sweeping across the top half */
+  .liquid-glass::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    pointer-events: none;
+    z-index: -1;
+    background:
+      radial-gradient(120% 140% at 10% -40%, rgb(255 255 255 / 0.75) 0%, transparent 45%),
+      radial-gradient(90% 120% at 95% 140%, rgb(200 230 74 / 0.18) 0%, transparent 50%);
+  }
+
+  .liquid-glass-dark {
+    background: linear-gradient(180deg, rgb(40 40 44 / 0.62) 0%, rgb(20 20 22 / 0.5) 100%);
+    border-color: rgb(255 255 255 / 0.14);
+    box-shadow:
+      inset 0 1px 0 rgb(255 255 255 / 0.22),
+      inset 0 -1px 0 rgb(255 255 255 / 0.06),
+      inset 0 0 18px rgb(255 255 255 / 0.05),
+      0 10px 30px -12px rgb(0 0 0 / 0.6);
+  }
+
+  .liquid-glass-dark::before {
+    background: radial-gradient(120% 140% at 10% -40%, rgb(255 255 255 / 0.16) 0%, transparent 45%);
+  }
+
+  /* Glass pill button tinted with the brand green */
+  .glass-button {
+    background: linear-gradient(180deg, #2bb36a 0%, #1a9d58 100%);
+    box-shadow:
+      inset 0 1px 0 rgb(255 255 255 / 0.45),
+      inset 0 -1px 0 rgb(0 0 0 / 0.12),
+      0 6px 16px -6px rgb(26 157 88 / 0.6);
+  }
+}
+
+
+@layer utilities {
+  .no-scrollbar { scrollbar-width: none; }
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+}

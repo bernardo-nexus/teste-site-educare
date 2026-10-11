@@ -1,0 +1,768 @@
+{
+  "ctaFinal": {
+    "badge": "Demostración gratuita",
+    "form": {
+      "email": "Email",
+      "name": "Nombre",
+      "phone": "Teléfono",
+      "schoolName": "Nombre de la Escuela",
+      "submit": "Solicitar Demostración Gratuita"
+    },
+    "subtitle": "Simplifica la rutina de tu escuela con una plataforma completa para jardines de infancia y guarderías.",
+    "success": {
+      "message": "Nuestro equipo se pondrá en contacto en un máximo de 24 horas para agendar tu demostración gratuita.",
+      "title": "¡Hemos recibido tu contacto!"
+    },
+    "title": "¿Listo para transformar la gestión de tu escuela?",
+    "whatsapp": {
+      "button": "WhatsApp",
+      "text": "O habla directamente por WhatsApp"
+    }
+  },
+  "differentials": {
+    "badge": "Nuestros diferenciales",
+    "subtitle": "Tecnología de vanguardia y soporte dedicado para que tu escuela se destaque.",
+    "items": [
+      {
+        "description": "Cada escuela cuenta con su propia base de datos aislada. Tus datos nunca se mezclan con los de otras instituciones.",
+        "title": "Seguridad y RGPD"
+      },
+      {
+        "description": "La app funciona incluso sin internet y se sincroniza automáticamente cuando vuelva la conexión.",
+        "title": "Funciona Offline"
+      },
+      {
+        "description": "Notificaciones push instantáneas. Los padres reciben actualizaciones en el momento en que ocurren.",
+        "title": "Tiempo Real"
+      },
+      {
+        "description": "Rendimiento superior con app nativa para iOS y Android. Nada de webview lento.",
+        "title": "App Nativa"
+      },
+      {
+        "description": "Personaliza los colores y la identidad visual de la app con la marca de tu institución.",
+        "title": "Marca de la Escuela"
+      },
+      {
+        "description": "Equipo de onboarding y soporte listo para ayudar a tu escuela a tener éxito.",
+        "title": "Soporte Dedicado"
+      }
+    ],
+    "title": "¿Por qué elegir Nexus EduCare?"
+  },
+  "faq": {
+    "badge": "FAQ",
+    "subtitle": "Todo lo que necesitas saber antes de empezar",
+    "items": [
+      {
+        "answer": "La implementación completa lleva de 3 a 7 días laborables, dependiendo del plan elegido. Con el plan Completo, ofrecemos onboarding dedicado con formación para todo el equipo. Con los planes Básico e Intermedio, proporcionamos tutoriales en vídeo y soporte para la configuración inicial.",
+        "question": "¿Cuánto tiempo se tarda en implementar Nexus EduCare en mi escuela?"
+      },
+      {
+        "answer": "¡Sí! Nuestro equipo ayuda en la migración de datos de alumnos, familias y aulas desde hojas de cálculo u otros sistemas. Con el plan Personalizado, ofrecemos integración directa vía API con los principales sistemas del mercado.",
+        "question": "¿Es posible migrar datos de otro sistema?"
+      },
+      {
+        "answer": "Sí, Nexus EduCare se ha desarrollado con tecnología offline-first. Los profesores pueden registrar la agenda diaria incluso sin conexión, y los datos se sincronizan automáticamente cuando vuelva internet. Los padres también pueden consultar la información más reciente almacenada en caché en el dispositivo.",
+        "question": "¿La aplicación funciona sin internet?"
+      },
+      {
+        "answer": "Nos tomamos la seguridad muy en serio. Todos los datos están cifrados en tránsito y en reposo. Cada escuela cuenta con su propia base de datos aislada, garantizando la total separación de información. Cumplimos íntegramente con el RGPD (Reglamento General de Protección de Datos), con políticas claras de consentimiento y derecho al olvido.",
+        "question": "¿Cómo funciona la seguridad de los datos y el cumplimiento del RGPD?"
+      },
+      {
+        "answer": "¡No! Todos los planes son mensuales, sin permanencia ni penalización por cancelación. Puedes hacer upgrade, downgrade o cancelar en cualquier momento. En los planes anuales, ofrecemos un descuento del 20% sobre el precio mensual.",
+        "question": "¿Existe permanencia o contrato de fidelidad?"
+      },
+      {
+        "answer": "El soporte varía según el plan: en el Intermedio, atendemos por email en un máximo de 48 horas laborables. En el Completo, el soporte es prioritario con respuesta en un máximo de 4 horas. En el Personalizado, cuentas con un gestor de éxito dedicado y soporte 24/7.",
+        "question": "¿Cómo funciona el soporte técnico?"
+      },
+      {
+        "answer": "¡No! La aplicación es totalmente gratuita para los padres y familias. Pueden descargar la app en la App Store o Google Play y acceder a todas las funcionalidades incluidas en el plan contratado por la escuela, sin ningún coste adicional.",
+        "question": "¿Los padres tienen que pagar para usar la aplicación?"
+      },
+      {
+        "answer": "No hay límite de usuarios. El precio se calcula por alumno matriculado activo, independientemente del número de padres, profesores o personal administrativo que utilicen la plataforma. Todos los responsables vinculados a un alumno tienen acceso completo a la app.",
+        "question": "¿Existe límite de usuarios o empleados?"
+      },
+      {
+        "answer": "La aplicación es compatible con iPhones a partir de iOS 14 y smartphones Android a partir de la versión 8.0, cubriendo la gran mayoría de dispositivos en uso. La app es ligera y está optimizada para funcionar bien incluso en dispositivos con recursos limitados.",
+        "question": "¿Nexus EduCare funciona en móviles antiguos?"
+      },
+      {
+        "answer": "¡Sí! El plan Completo ofrece 7 días de prueba gratuita. La tarjeta se registra al inicio pero solo se cobra tras el período gratuito. Durante el período de prueba, tienes acceso a todas las funcionalidades del plan. Para el plan Personalizado, ofrecemos una demostración personalizada con nuestro equipo de ventas.",
+        "question": "¿Puedo probar antes de contratar?"
+      }
+    ],
+    "title": "Preguntas Frecuentes"
+  },
+  "features": {
+    "management": [
+      {
+        "description": "Visión 360° con métricas de alumnos, aulas y asistencia",
+        "title": "Dashboard Ejecutivo"
+      },
+      {
+        "description": "Gestiona alumnos, aulas, personal y matrículas",
+        "title": "Gestión Completa"
+      },
+      {
+        "description": "Envía circulares y alertas con confirmación de lectura",
+        "title": "Comunicados"
+      },
+      {
+        "description": "Analytics de asistencia, participación y comidas",
+        "title": "Informes"
+      },
+      {
+        "description": "Control de mensualidades y morosidad",
+        "title": "Financiero"
+      },
+      {
+        "description": "Gestiona eventos, festivos y reuniones de la escuela",
+        "title": "Calendario"
+      }
+    ],
+    "parent": [
+      {
+        "description": "Sigue la asistencia, comidas, siesta y actividades de tu hijo en tiempo real",
+        "title": "Agenda Diaria"
+      },
+      {
+        "description": "Habla directamente con los profesores por texto, fotos, audio y vídeo",
+        "title": "Chat con Profesores"
+      },
+      {
+        "description": "Consulta mensualidades, recibos y pagos con estado en tiempo real",
+        "title": "Control Financiero"
+      },
+      {
+        "description": "Accede a fotos y vídeos de las actividades escolares de tu hijo",
+        "title": "Galería de Fotos"
+      },
+      {
+        "description": "Consulta el menú de la semana con alertas de alergia personalizadas",
+        "title": "Menú Semanal"
+      },
+      {
+        "description": "Sigue los medicamentos, dosis e historial de administración",
+        "title": "Medicamentos"
+      },
+      {
+        "description": "Accede a certificados, evaluaciones y documentos de la escuela",
+        "title": "Documentos"
+      },
+      {
+        "description": "Mantente informado de eventos, festivos y reuniones",
+        "title": "Calendario Escolar"
+      },
+      {
+        "description": "Responde encuestas y autorizaciones de la escuela",
+        "title": "Encuestas"
+      },
+      {
+        "description": "Sigue la lista de materiales con estado de compra",
+        "title": "Lista de Materiales"
+      }
+    ],
+    "subtitle": "Funcionalidades pensadas para cada perfil de usuario",
+    "tabs": {
+      "management": "Para Gestión",
+      "parents": "Para Padres",
+      "teachers": "Para Profesores"
+    },
+    "teacher": [
+      {
+        "description": "Registra asistencia, comidas, siesta y actividades de toda el aula",
+        "title": "Registro Diario"
+      },
+      {
+        "description": "Visualiza todos los alumnos, información médica y contactos de las familias",
+        "title": "Gestión del Aula"
+      },
+      {
+        "description": "Comunícate directamente con las familias de cada alumno",
+        "title": "Chat con Padres"
+      },
+      {
+        "description": "Estadísticas de asistencia y patrones del aula",
+        "title": "Seguimiento"
+      },
+      {
+        "description": "Accede a datos completos incluyendo alergias y medicamentos",
+        "title": "Perfil del Alumno"
+      },
+      {
+        "description": "Guarda el informe de toda el aula con pocos toques",
+        "title": "Informe Rápido"
+      }
+    ],
+    "title": "Todo lo que tu escuela necesita"
+  },
+  "footer": {
+    "company": {
+      "about": "Sobre Nosotros",
+      "contact": "Contacto",
+      "title": "Empresa"
+    },
+    "copyright": "2026 Nexus Group. Todos los derechos reservados.",
+    "description": "La plataforma de gestión escolar más completa.",
+    "legal": {
+      "lgpd": "RGPD",
+      "privacy": "Política de Privacidad",
+      "terms": "Términos de Uso",
+      "title": "Legal"
+    },
+    "product": {
+      "faq": "FAQ",
+      "features": "Funcionalidades",
+      "plans": "Planes",
+      "testimonials": "Testimonios",
+      "title": "Producto"
+    },
+    "recaptcha": {
+      "prefix": "Este sitio está protegido por reCAPTCHA y se aplican la",
+      "privacy": "Política de Privacidad",
+      "and": "y los",
+      "terms": "Términos de Servicio",
+      "suffix": "de Google."
+    }
+  },
+  "hero": {
+    "badge": "Plataforma #1 para escuelas infantiles",
+    "badges": {
+      "offline": "Funciona Offline",
+      "secure": "Seguro y RGPD",
+      "support": "Soporte Dedicado"
+    },
+    "ctaPrimary": "Solicita una Demostración",
+    "ctaSecondary": "Conoce los Planes",
+    "phone": {
+      "activities": [
+        {
+          "label": "Entrada",
+          "time": "07:30"
+        },
+        {
+          "label": "Desayuno",
+          "time": "08:00"
+        },
+        {
+          "label": "Actividad libre",
+          "time": "09:00"
+        },
+        {
+          "label": "Merienda",
+          "time": "10:30"
+        },
+        {
+          "label": "Parque",
+          "time": "11:00"
+        },
+        {
+          "label": "Almuerzo",
+          "time": "12:00"
+        }
+      ],
+      "chat": {
+        "message": "¡Pedro ha comido bien!",
+        "name": "Prof. Ana"
+      },
+      "childName": "Pedro García",
+      "childStatus": "Presente - 07:32",
+      "greeting": "¡Hola, María!",
+      "notification": {
+        "time": "Ahora mismo",
+        "title": "¡Pedro ha llegado!"
+      },
+      "tabs": [
+        "Inicio",
+        "Agenda",
+        "Chat",
+        "Más"
+      ],
+      "todaySchedule": "Agenda de Hoy"
+    },
+    "subtitle": "Conecta a padres, profesores y gestores en una única plataforma inteligente. Agenda digital, chat en tiempo real, control financiero y mucho más.",
+    "title": "La gestión escolar completa",
+    "titleHighlight": "en la palma de tu mano"
+  },
+  "howItWorks": {
+    "badge": "Simple y rápido",
+    "steps": [
+      {
+        "description": "Crea tu cuenta y configura la información básica de la institución.",
+        "title": "Registra tu escuela"
+      },
+      {
+        "description": "Añade aulas, profesores y personal al sistema.",
+        "title": "Configura aulas y equipo"
+      },
+      {
+        "description": "Envía invitaciones automáticas a las familias de los alumnos.",
+        "title": "Invita a los padres"
+      },
+      {
+        "description": "En menos de 24 horas tu escuela estará conectada.",
+        "title": "¡Empieza a usar!"
+      }
+    ],
+    "subtitle": "Implementación rápida y sin complicaciones",
+    "title": "Empieza en",
+    "titleHighlight": "minutos"
+  },
+  "lang": "es-ES",
+  "langFlag": "🇪🇸",
+  "langLabel": "Español",
+  "nav": {
+    "closeMenu": "Cerrar menú",
+    "comoFunciona": "Cómo Funciona",
+    "cta": "Empezar Ahora",
+    "depoimentos": "Testimonios",
+    "desafios": "Desafíos",
+    "diferenciais": "Ventajas",
+    "faq": "FAQ",
+    "funcionalidades": "Funcionalidades",
+    "inicio": "Inicio",
+    "openMenu": "Abrir menú",
+    "planos": "Planes",
+    "solucao": "Solución"
+  },
+  "pricing": {
+    "annualBadge": "Ahorra 2 meses con el plan anual",
+    "badge": "Planes",
+    "mostPopular": "Más Popular",
+    "customQuote": "Para {count} alumnos · propuesta a medida",
+    "ctaStart": "Empezar Gratis",
+    "ctaTrial": "Prueba Gratis {days} Días",
+    "ctaCustom": "Solicitar Propuesta",
+    "priceDetail": "alumno/mes",
+    "priceCustom": "Consultar",
+    "minStudentsNote": "Mínimo {min} alumnos",
+    "reassurance": {
+      "cancel": "Cancela en cualquier momento",
+      "noContract": "Sin permanencia ni penalización",
+      "support": "Soporte incluido en todos los planes"
+    },
+    "studentSelector": {
+      "label": "¿Cuántos alumnos?",
+      "students": "alumnos",
+      "totalLabel": "Total estimado",
+      "perMonth": "/mes",
+      "minNote": "Mínimo {min} alumnos"
+    },
+    "subtitle": "Transparencia total. Sin sorpresas. Cancela cuando quieras.",
+    "title": "Planes que se ajustan al presupuesto de tu escuela",
+    "featureLabels": {
+      "staff_management": "Gestión de Personal",
+      "class_management": "Gestión de Clases",
+      "student_management": "Gestión de Alumnos",
+      "guardian_management": "Gestión de Tutores",
+      "school_years": "Años Escolares",
+      "attendance": "Asistencia",
+      "daily_reports": "Diario del Alumno",
+      "communications": "Comunicados",
+      "calendar": "Calendario",
+      "menu": "Menú Semanal",
+      "push_notifications": "Notificaciones Push",
+      "diaper_logs": "Registro de Pañales",
+      "feeding_logs": "Registro de Alimentación",
+      "checkin": "Check-in",
+      "pickup_authorizations": "Autorizaciones de Recogida",
+      "messages": "Mensajes",
+      "gallery": "Galería",
+      "polls": "Encuestas",
+      "material_lists": "Listas de Material",
+      "class_schedules": "Horario Semanal",
+      "financials": "Financiero",
+      "reports_standard": "Informes Estándar",
+      "email_support": "Soporte por Email",
+      "homework": "Tareas",
+      "meetings": "Reuniones",
+      "boletim": "Boletín Escolar",
+      "incident_reports": "Incidencias",
+      "waitlist": "Lista de Espera",
+      "milestones": "Hitos de Desarrollo",
+      "portfolio": "Portafolio",
+      "chat_text": "Chat (Texto)",
+      "chat_media": "Chat (Medios)",
+      "documents": "Documentos",
+      "medications": "Medicamentos",
+      "backups": "Copia de Seguridad Automática",
+      "reports_advanced": "Informes Avanzados",
+      "chat_support": "Soporte por Chat",
+      "priority_support": "Soporte Prioritario",
+      "dedicated_onboarding": "Onboarding Dedicado",
+      "analytics": "Analytics",
+      "timesheet": "Control de Asistencia",
+      "multi_unit": "Multi-centro",
+      "api_integrations": "API e Integraciones",
+      "custom_reports": "Informes Personalizados",
+      "support_24_7": "Soporte 24/7",
+      "white_glove_onboarding": "Onboarding White-glove",
+      "sla": "SLA Garantizado"
+    },
+    "comparison": {
+      "title": "Qué está incluido en cada plan",
+      "unlimited": "Ilimitado",
+      "unlimitedF": "Ilimitada",
+      "chatText": "Texto",
+      "chatTextMedia": "Texto + Medios",
+      "supportEmail": "Email",
+      "supportPriority": "Prioritario",
+      "supportDedicated": "Dedicado 24/7",
+      "onboardingDedicated": "Dedicado",
+      "onboardingWhiteGlove": "White-glove",
+      "groups": [
+        {
+          "name": "Límites",
+          "rows": [
+            { "name": "Máx. alumnos", "type": "limit", "key": "maxStudents" },
+            { "name": "Máx. empleados", "type": "limit", "key": "maxStaff" },
+            { "name": "Máx. aulas", "type": "limit", "key": "maxClasses" },
+            { "name": "Años escolares", "type": "limit", "key": "maxSchoolYears" }
+          ]
+        },
+        {
+          "name": "Plataforma Base",
+          "rows": [
+            { "name": "Agenda diaria y asistencia", "type": "feature", "key": "attendance" },
+            { "name": "Comunicados y calendario", "type": "feature", "key": "communications" },
+            { "name": "Menú semanal", "type": "feature", "key": "menu" },
+            { "name": "Notificaciones push", "type": "feature", "key": "push_notifications" },
+            { "name": "App para padres y profesores", "type": "always", "key": "" }
+          ]
+        },
+        {
+          "name": "Guardería & Cuidado",
+          "rows": [
+            { "name": "Registro de pañales", "type": "feature", "key": "diaper_logs" },
+            { "name": "Registro de alimentación", "type": "feature", "key": "feeding_logs" },
+            { "name": "Check-in de entrada/salida", "type": "feature", "key": "checkin" },
+            { "name": "Autorizaciones de recogida", "type": "feature", "key": "pickup_authorizations" }
+          ]
+        },
+        {
+          "name": "Comunicación & Contenido",
+          "rows": [
+            { "name": "Mensajes y encuestas", "type": "feature", "key": "messages" },
+            { "name": "Chat en tiempo real", "type": "chat", "key": "" },
+            { "name": "Galería de fotos", "type": "gallery", "key": "" }
+          ]
+        },
+        {
+          "name": "Pedagógico",
+          "rows": [
+            { "name": "Boletín escolar", "type": "feature", "key": "boletim" },
+            { "name": "Tareas y reuniones", "type": "feature", "key": "homework" },
+            { "name": "Portafolio e hitos de desarrollo", "type": "feature", "key": "portfolio" },
+            { "name": "Listas de material", "type": "feature", "key": "material_lists" },
+            { "name": "Horario semanal", "type": "feature", "key": "class_schedules" }
+          ]
+        },
+        {
+          "name": "Gestión Escolar",
+          "rows": [
+            { "name": "Control financiero", "type": "feature", "key": "financials" },
+            { "name": "Medicamentos", "type": "feature", "key": "medications" },
+            { "name": "Documentos y certificados", "type": "feature", "key": "documents" },
+            { "name": "Analytics y dashboards", "type": "feature", "key": "analytics" },
+            { "name": "Control de asistencia de empleados", "type": "feature", "key": "timesheet" },
+            { "name": "Copia de seguridad automática", "type": "feature", "key": "backups" }
+          ]
+        },
+        {
+          "name": "Personalizado",
+          "rows": [
+            { "name": "Multi-centro centralizado", "type": "feature", "key": "multi_unit" },
+            { "name": "API e integraciones", "type": "feature", "key": "api_integrations" },
+            { "name": "Informes personalizados", "type": "feature", "key": "custom_reports" }
+          ]
+        },
+        {
+          "name": "Soporte",
+          "rows": [
+            { "name": "Canal de soporte", "type": "support", "key": "" },
+            { "name": "Onboarding", "type": "onboarding", "key": "" },
+            { "name": "SLA garantizado", "type": "feature", "key": "sla" }
+          ]
+        }
+      ]
+    }
+  },
+  "problems": {
+    "seeInApp": "Ver en la app",
+    "close": "Cerrar",
+    "before": "Antes",
+    "after": "Con Nexus EduCare",
+    "badge": "Desafíos del día a día",
+    "items": [
+      {
+        "description": "Notas perdidas, avisos que no llegan y padres desinformados sobre la rutina.",
+        "title": "Comunicación ineficiente"
+      },
+      {
+        "description": "Horas dedicadas a hojas de cálculo, llamadas y tareas manuales repetitivas.",
+        "title": "Tiempo desperdiciado"
+      },
+      {
+        "description": "Cobros desorganizados y falta de visibilidad financiera afectan la tesorería.",
+        "title": "Morosidad creciente"
+      },
+      {
+        "description": "Registros de asistencia, comidas y actividades dispersos en cuadernos y papeles.",
+        "title": "Agenda desorganizada"
+      },
+      {
+        "description": "Familias sin acceso a la rutina de su hijo y sin canal directo con la escuela.",
+        "title": "Padres desconectados"
+      },
+      {
+        "description": "Información sensible de alumnos en hojas de cálculo compartidas, sin seguridad.",
+        "title": "Datos sin protección"
+      }
+    ],
+    "stat": {
+      "text": "comunes en las escuelas infantiles — todos con solución en Nexus EduCare.",
+      "value": "6 desafíos"
+    },
+    "subtitle": "Problemas que consumen tiempo, dinero y la confianza de los padres — y que podrían resolverse con la tecnología adecuada.",
+    "title": "¿Tu escuela aún enfrenta",
+    "titleHighlight": "estos desafíos?"
+  },
+  "scroll": {
+    "nextSection": "Siguiente sección"
+  },
+  "solution": {
+    "badge": "Solución completa",
+    "roles": [
+      {
+        "description": "Sigue cada momento del día de tu hijo: asistencia, comidas, actividades y mucho más. Todo en tiempo real, directamente en tu móvil.",
+        "highlights": [
+          "Agenda diaria completa",
+          "Chat directo con profesores",
+          "Fotos y vídeos del día a día",
+          "Control financiero"
+        ],
+        "title": "Para Padres"
+      },
+      {
+        "description": "Registra la rutina del aula en pocos minutos. Asistencia, comidas, siesta y observaciones — todo en una única pantalla.",
+        "highlights": [
+          "Registro diario simplificado",
+          "Gestión completa del aula",
+          "Comunicación con las familias",
+          "Perfiles con info médica"
+        ],
+        "title": "Para Profesores"
+      },
+      {
+        "description": "Dashboard ejecutivo con visión 360° de la escuela. Gestiona alumnos, aulas, equipo y comunicación en un solo lugar.",
+        "highlights": [
+          "Dashboard con métricas",
+          "Gestión de alumnos y aulas",
+          "Comunicados con confirmación",
+          "Informes y analytics"
+        ],
+        "title": "Para Gestión"
+      }
+    ],
+    "subtitle": "Nexus EduCare se adapta a cada usuario, ofreciendo exactamente lo que cada uno necesita.",
+    "title": "Una plataforma,",
+    "titleHighlight": "tres experiencias"
+  },
+  "testimonials": {
+    "subtitle": "Descubre cómo escuelas reales están transformando su rutina",
+    "items": [
+      {
+        "avatar": "MC",
+        "content": "Nexus EduCare ha transformado la gestión de nuestra guardería. Antes pasaba horas con hojas de cálculo y notas en papel. Ahora tengo un dashboard completo con la asistencia y las métricas de todas las aulas en tiempo real. La morosidad bajó un 40% desde que implementamos el control financiero por la app.",
+        "name": "María Clara García",
+        "role": "Directora",
+        "school": "Guardería Pequeñas Estrellas"
+      },
+      {
+        "avatar": "FS",
+        "content": "El registro diario se ha vuelto mucho más rápido. Antes tenía que rellenar fichas de papel para cada niño al final del día. Ahora marco asistencia, comidas y siesta con pocos toques durante la rutina, y los padres ya reciben todo al instante. El chat directo con las familias también ha facilitado mucho la comunicación.",
+        "name": "Fernanda Santos",
+        "role": "Profesora",
+        "school": "Escuela Infantil Arcoíris"
+      },
+      {
+        "avatar": "RM",
+        "content": "Como padre, la tranquilidad de seguir el día de mi hijo en tiempo real no tiene precio. Recibo notificación cuando llega, veo las fotos de las actividades y sé exactamente lo que ha comido. El chat con la profesora también es muy práctico para avisar sobre medicamentos o ausencias.",
+        "name": "Rafael Méndez",
+        "role": "Padre de alumno",
+        "school": "Guardería Mundo Encantado"
+      },
+      {
+        "avatar": "AB",
+        "content": "La parte administrativa se ha organizado mucho mejor. Puedo gestionar matrículas, enviar comunicados con confirmación de lectura y generar informes de asistencia en pocos clics. Los padres también han dejado de llamar a cada momento pidiendo recibos porque ahora está todo en la app.",
+        "name": "Ana Beatriz Costa",
+        "role": "Secretaria",
+        "school": "Centro Educativo Semillita"
+      }
+    ],
+    "title": "Lo que dicen de nosotros"
+  },
+  "signup": {
+    "backToSite": "Volver al sitio",
+    "stepLabels": {
+      "school": "Escuela",
+      "admin": "Admin",
+      "payment": "Pago",
+      "confirm": "Confirmar"
+    },
+    "steps": {
+      "school": {
+        "title": "Datos de la Escuela",
+        "subtitle": "Información básica de tu institución"
+      },
+      "admin": {
+        "title": "Administrador",
+        "subtitle": "Quién será el responsable de la cuenta"
+      },
+      "confirm": {
+        "title": "Confirmación",
+        "subtitle": "Revisa los datos y empieza tu prueba"
+      }
+    },
+    "fields": {
+      "schoolName": "Nombre de la Escuela",
+      "schoolCnpj": "CNPJ",
+      "schoolEmail": "Email de la Escuela",
+      "schoolPhone": "Teléfono",
+      "adminName": "Nombre Completo",
+      "adminEmail": "Email",
+      "adminPhone": "Teléfono",
+      "adminGender": "Género",
+      "adminRole": "Cargo",
+      "adminHireDate": "Fecha de contratación (opcional)",
+      "schoolRazaoSocial": "Razón Social",
+      "schoolFoundationDate": "Fecha de Apertura"
+    },
+    "placeholders": {
+      "schoolName": "Ej: Guardería Pequeñas Estrellas",
+      "schoolCnpj": "B12345678",
+      "schoolEmail": "contacto@escuela.com",
+      "schoolPhone": "+34 612 345 678",
+      "adminName": "María García",
+      "adminEmail": "maria@escuela.com",
+      "adminPhone": "+34 612 345 678",
+      "adminHireDate": "DD/MM/AAAA",
+      "schoolRazaoSocial": "Guardería Pequeñas Estrellas S.L.",
+      "schoolFoundationDate": "DD/MM/AAAA"
+    },
+    "roles": {
+      "director": "Director(a)",
+      "coordinator": "Coordinador(a)",
+      "secretary": "Secretario(a)",
+      "teacher": "Profesor(a)",
+      "auxiliary": "Auxiliar",
+      "pedagogue": "Pedagogo(a)",
+      "nutritionist": "Nutricionista"
+    },
+    "genders": {
+      "male": "Masculino",
+      "female": "Femenino"
+    },
+    "validation": {
+      "required": "Campo obligatorio",
+      "invalidEmail": "Email inválido",
+      "invalidDate": "Fecha inválida (DD/MM/AAAA)",
+      "invalidCnpj": "CNPJ inválido"
+    },
+    "next": "Continuar",
+    "back": "Volver",
+    "confirm": {
+      "plan": "Plan Seleccionado",
+      "schoolInfo": "Datos de la Escuela",
+      "adminInfo": "Administrador",
+      "trialInfo": "Tendrás 7 días de prueba gratuita. Tu tarjeta se guarda ahora pero solo se cobra tras el trial.",
+      "acceptTerms": "Acepto los Términos de Uso y la Política de Privacidad de Nexus EduCare.",
+      "submit": "Empezar Prueba Gratuita",
+      "submitting": "Procesando..."
+    },
+    "studentCount": "Número de alumnos",
+    "otp": {
+      "title": "Verificación de email",
+      "subtitle": "Ingresa el código de 6 dígitos enviado a tu email",
+      "sentTo": "Código enviado a",
+      "codeLabel": "Código de verificación",
+      "verify": "Verificar",
+      "verifying": "Verificando...",
+      "resend": "Reenviar código",
+      "resendIn": "Reenviar en {s}s",
+      "resendMaxReached": "Límite de reenvíos alcanzado",
+      "wrongCode": "Código incorrecto. {n} intento(s) restante(s).",
+      "maxAttempts": "Demasiados intentos. Solicita un nuevo código.",
+      "attemptsLeft": "{n} intento(s) restante(s)",
+      "sendError": "Error al enviar el código. Inténtalo de nuevo.",
+      "verifyError": "Error al verificar el código. Inténtalo de nuevo."
+    }
+  },
+  "onboarding": {
+    "title": "Preparando tu escuela...",
+    "loading": "Cargando...",
+    "noId": "ID de onboarding no encontrado.",
+    "doNotClose": "No cierres esta página. El proceso tarda unos segundos.",
+    "steps": {
+      "payment": "Pago confirmado",
+      "tenant_creation": "Configurando base de datos",
+      "platform_setup": "Configurando autenticación"
+    },
+    "success": {
+      "title": "¡Todo listo!",
+      "subtitle": "Tus credenciales de acceso han sido enviadas a tu email.",
+      "schoolLabel": "Escuela",
+      "credentialsLabel": "Acceso enviado por email",
+      "emailLabel": "Email de acceso",
+      "passwordLabel": "Contraseña temporal",
+      "revealPasswordCta": "Haz clic aquí para mostrar tu contraseña",
+      "loadingPassword": "Mostrando contraseña...",
+      "revealOneTimeWarning": "Aviso: no podrás volver a ver esta contraseña.",
+      "revealUnavailable": "No fue posible mostrarla de nuevo. Usa recuperación de contraseña en la app.",
+      "copyPassword": "Copiar",
+      "copiedPassword": "¡Copiado!",
+      "changePasswordNote": "Se te pedirá cambiar la contraseña en el primer inicio de sesión.",
+      "downloadApp": "Descarga la app para empezar:",
+      "nextSteps": "Próximos pasos:",
+      "step1": "Revisa tu email y copia la contraseña temporal",
+      "step2": "Descarga Nexus EduCare en la App Store o Google Play",
+      "step3": "Inicia sesión, cambia tu contraseña y espera la aprobación",
+      "backToHome": "Volver al sitio",
+      "emailSentNote": "Revisa tu bandeja de entrada (y spam) para encontrar el email con tus credenciales.",
+      "noEmailFallback": "¿No recibiste el email?",
+      "existingUserNote": "Ya tienes una cuenta de Nexus EduCare. Usa tu email y contraseña existentes para acceder a la nueva escuela en la app.",
+      "pendingNote": "Tus funciones se activarán tras la aprobación del equipo Nexus. Mientras tanto, explora la app libremente — recuerda que algunas funciones estarán bloqueadas hasta la activación completa de tu cuenta."
+    },
+    "error": {
+      "title": "Algo salió mal",
+      "subtitle": "Hubo un problema al configurar tu escuela. Intenta de nuevo.",
+      "retry": "Intentar de Nuevo",
+      "backToHome": "Volver al sitio"
+    },
+    "approval": {
+      "title": "¡Solicitud recibida!",
+      "subtitle": "Nuestro equipo revisará y activará tu cuenta en breve.",
+      "schoolLabel": "Escuela solicitada",
+      "nextSteps": "¿Qué pasa ahora?",
+      "step1": "Tu solicitud ha sido registrada correctamente.",
+      "step2": "Recibirás un email en {email} cuando tu cuenta sea activada.",
+      "step3": "Configura tu escuela y empieza a usar el sistema.",
+      "backToHome": "Volver al sitio"
+    }
+  },
+  "tryApp": {
+    "badge": "Prueba la app",
+    "title": "Mira Nexus EduCare",
+    "titleHighlight": "en acción",
+    "subtitle": "Toca la pantalla y navega por la app real. Elige un perfil para ver lo que cada uno encuentra en su día a día.",
+    "hint": "Toca los botones de la app para navegar",
+    "restart": "Reiniciar",
+    "back": "Volver",
+    "choose": "Elige un perfil",
+    "soon": "pronto"
+  }
+}
